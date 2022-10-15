@@ -36,12 +36,10 @@ class HeroListState extends State<HeroList> {
           children: [
             _addSpace(30),
             _addHorizontalListForAppBar(),
-            // _addSpace(10),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.75,
               child: Image.asset("assets/images/girl1.png"),
             ),
-            // _addSpace(10),
             _addHorizontalList(),
           ],
         ),
@@ -75,10 +73,6 @@ class HeroListState extends State<HeroList> {
             AssetImage("assets/images/shopbutton.png"),
           ),
         ),
-        // SizedBox(
-        //   height: 20,
-        //   width: MediaQuery.of(context).size.width * 0.4,
-        // ),
         InkWell(
           enableFeedback: false,
           // onTap: () {

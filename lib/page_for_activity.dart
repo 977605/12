@@ -5,34 +5,36 @@ import 'package:neon_circular_timer/neon_circular_timer.dart';
 class ActivityDetailsScreen extends StatelessWidget {
   final ActivityList ativityList;
 
-  const ActivityDetailsScreen({super.key,
+  const ActivityDetailsScreen({
+    super.key,
     required this.ativityList,
   });
 
   @override
   Widget build(BuildContext context) {
     final CountDownController controller = CountDownController();
-    // List<int> timelist = [600,120,300,900,600 ];
+
     late int time;
-    List<int> timelist = [5,8,10,15,20];
-    int _chekIndex(){
-      if (ativityList.id ==1){
+    List<int> timelist = [5, 8, 10, 15, 20];
+    int _chekIndex() {
+      if (ativityList.id == 1) {
         return timelist.elementAt(0);
       }
-      if (ativityList.id ==2){
+      if (ativityList.id == 2) {
         return timelist.elementAt(1);
       }
-      if (ativityList.id ==3){
+      if (ativityList.id == 3) {
         return timelist.elementAt(2);
       }
-      if (ativityList.id ==4){
+      if (ativityList.id == 4) {
         return timelist.elementAt(3);
       }
-      if (ativityList.id ==5){
+      if (ativityList.id == 5) {
         return timelist.elementAt(4);
       }
       throw 'Нет нужного элемента';
     }
+
     time = _chekIndex();
 
     return Scaffold(
@@ -65,7 +67,8 @@ class ActivityDetailsScreen extends StatelessWidget {
                       },
                       child: const CircleAvatar(
                         radius: 30.0,
-                        backgroundImage: AssetImage("assets/images/backbutton.png"),
+                        backgroundImage:
+                            AssetImage("assets/images/backbutton.png"),
                       ),
                     ),
                     SizedBox(
@@ -78,19 +81,14 @@ class ActivityDetailsScreen extends StatelessWidget {
                     ),
                   ],
                 ),
-                Text(ativityList.name.toString(), style: Theme.of(context).textTheme.headline6),
+                Text(ativityList.name.toString(),
+                    style: Theme.of(context).textTheme.headline6),
                 Image.asset(
                   ativityList.gif.toString(),
-                height: 325.0,
-                width: 325.0,
+                  height: 325.0,
+                  width: 325.0,
                 ),
-                  (
-
-                  // image: NetworkImage(ativityList.gif.toString()),
-                  // width: 500,
-                  // height: 350,
-                // ),
-                Padding(
+                    Padding(
                   padding: const EdgeInsets.all(30),
                   child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -103,16 +101,6 @@ class ActivityDetailsScreen extends StatelessWidget {
                         NeonCircularTimer(
                             onComplete: () {
                               // controller.restart();
-                              Container(
-                                child: Text(
-                                    'Молодец!',
-                                    style: TextStyle(
-                                    color: Colors.green,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 48,
-                                ),
-                                ),
-                              );
                             },
                             width: 80,
                             controller: controller,
@@ -140,9 +128,7 @@ class ActivityDetailsScreen extends StatelessWidget {
                               controller.pause();
                             }),
                       ]),
-                )
-
-                  ),
+                ),
               ],
             ],
           ),

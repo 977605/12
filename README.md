@@ -32,13 +32,13 @@
     <img src="https://1000logos.net/wp-content/uploads/2021/05/Trello-logo-768x432.png" width="85" height="40"  alt="Trello"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
-    <img src="https://cdn.dribbble.com/users/3061686/screenshots/17599145/media/4d00ad57610b9f50bb00cc5a68654986.png?compress=1&resize=1200x900&vertical=top" width="85" height="40"  alt="Figma"/>
+    <img src="https://cdn.dribbble.com/users/3061686/screenshots/17599145/media/4d00ad57610b9f50bb00cc5a68654986.png?compress=1&resize=1200x900&vertical=top" width="85" height="50"  alt="Figma"/>
 </a>
 
 ### screenshots
 #### вместе с выбранным героем ребенок может перейти на экран с нужной активностью
 <a href="https://www.jetbrains.com/idea/">
-<img src=https://github.com/977605/12/blob/master/assets/images/screen_with_girl.jpg" width="40" height="85"  alt="Hero"/>
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_girl.jpg" width="40" height="85"  alt="Hero"/>
 </a>
 
 #### - чистка зубов

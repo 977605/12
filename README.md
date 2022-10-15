@@ -32,26 +32,36 @@
     <img src="https://1000logos.net/wp-content/uploads/2021/05/Trello-logo-768x432.png" width="85" height="40"  alt="Trello"/>
 </a>
 <a href="https://www.jetbrains.com/idea/">
-    <img src="https://cdn.dribbble.com/users/3061686/screenshots/17599145/media/4d00ad57610b9f50bb00cc5a68654986.png?compress=1&resize=1200x900&vertical=top" width="85" height="50"  alt="Figma"/>
+    <img src="https://cdn.dribbble.com/users/3061686/screenshots/17599145/media/4d00ad57610b9f50bb00cc5a68654986.png?compress=1&resize=1200x900&vertical=top" width="85" height="45"  alt="Figma"/>
 </a>
 
 ### screenshots
 #### вместе с выбранным героем ребенок может перейти на экран с нужной активностью
 <a href="https://www.jetbrains.com/idea/">
-<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_girl.jpg" width="40" height="85"  alt="Hero"/>
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_girl.jpg" width="100" height="155"  alt="Hero"/>
 </a>
 
 #### - чистка зубов
-![image](https://github.com/977605/12/blob/master/assets/images/screen_with_frog.jpg)
+<a href="https://www.jetbrains.com/idea/">
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_frog.jpg" width="100" height="155"  alt="Hero"/>
+</a>
 
 #### - чтение
-![image](https://github.com/977605/12/blob/master/assets/images/screen_with_book.jpg)
+<a href="https://www.jetbrains.com/idea/">
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_book.jpg" width="100" height="155"  alt="Hero"/>
+</a>
 
 #### - зарядка
-![image](https://github.com/977605/12/blob/master/assets/images/screen_with_excercise.jpg)
+<a href="https://www.jetbrains.com/idea/">
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_excercise.jpg" width="100" height="155"  alt="Hero"/>
+</a>
 
 #### - еда
-![image](https://github.com/977605/12/blob/master/assets/images/screen_with_eating.jpg)
+<a href="https://www.jetbrains.com/idea/">
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_eating.jpg" width="100" height="155"  alt="Hero"/>
+</a>
 
 #### - прибирание игрушек
-![image](https://github.com/977605/12/blob/master/assets/images/screen_with_toy.jpg)
+<a href="https://www.jetbrains.com/idea/">
+<img src="https://github.com/977605/12/blob/master/assets/images/screen_with_toy.jpg" width="100" height="155"  alt="Hero"/>
+</a>
